@@ -1,0 +1,15 @@
+{
+	"name": "@nciocpl/eslint-config-react",
+	"version": "1.0.0",
+	"description": "ESLint shareable config for react-based projects",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.com/nciocpl/ncids.git",
+		"directory": "packages/eslint-config-react"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/",
+		"access": "public"
+	}
+}

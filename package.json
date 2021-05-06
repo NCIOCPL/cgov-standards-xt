@@ -7,8 +7,16 @@
 	"author": "NCIOCPL",
 	"license": "ISC",
 	"private": true,
+	"workspaces": {
+		"packages": [
+			"packages/*"
+		]
+	},
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://npm.pkg.github.com/@nciocpl"
+	},
+	"devDependencies": {
+		"lerna": "^4.0.0"
 	}
 }
