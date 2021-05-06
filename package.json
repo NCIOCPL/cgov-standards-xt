@@ -1,0 +1,14 @@
+{
+	"name": "cgov-standards-xt",
+	"version": "0.1.0",
+	"description": "Monorepo containing eslint rules packages for use with javascript projects created for the National Cancer Institute(NCI)",
+	"main": "index.js",
+	"repository": "https://github.com/NCIOCPL/cgov-standards-xt.git",
+	"author": "NCIOCPL",
+	"license": "ISC",
+	"private": true,
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://npm.pkg.github.com/@nciocpl"
+	}
+}
