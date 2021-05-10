@@ -1,0 +1,21 @@
+{
+	"name": "@nciocpl/test-app-vanilla-js",
+	"version": "1.0.0",
+	"description": "test app for vanilla js eslint-config-vanilla",
+	"main": "index.js",
+	"author": "NCIOCPL",
+	"license": "See LICENSE.md",
+	"private": true,
+	"devDependencies": {
+		"eslint": "^7.26.0",
+		"jest": "^26.6.3",
+		"jest-dom": "^4.0.0"
+	},
+	"scripts": {
+		"lint": "eslint src --ext .js",
+		"lint:fix": "eslint src --ext .js --fix"
+	},
+	"dependencies": {
+		"@nciocpl/eslint-config-vanilla-js": "^1.0.0"
+	}
+}
