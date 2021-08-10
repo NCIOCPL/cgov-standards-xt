@@ -6,8 +6,8 @@
 	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {
 		"type": "git",
-		"url": "ssh://git@github.com/nciocpl/ncids.git",
-		"directory": "packages/eslint-config-react"
+		"url": "ssh://git@github.com/nciocpl/cgov-standards-xt.git",
+		"directory": "packages/eslint-config-vanilla-js"
 	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/",
