@@ -1,0 +1,23 @@
+{
+	"name": "@nciocpl/eslint-config-vanilla-js",
+	"version": "1.0.0",
+	"description": "ESLint shareable config for vanilla js projects built for the National Cancer Institute(NCI)",
+	"author": "NCIOCPL",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.com/nciocpl/ncids.git",
+		"directory": "packages/eslint-config-react"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/",
+		"access": "public"
+	},
+	"devDependencies": {
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-jest": "^24.3.6",
+		"eslint-plugin-jest-dom": "^3.8.1",
+		"eslint-plugin-prettier": "^3.4.0",
+		"prettier": "^2.2.1"
+	}
+}
