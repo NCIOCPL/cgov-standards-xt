@@ -1,4 +1,10 @@
 {
+	"command": {
+		"publish": {
+			"registry": "https://npm.pkg.github.com",
+			"access": "public"
+		}
+	},
 	"packages": [
 		"packages/*"
 	],
