@@ -1,8 +1,14 @@
 {
+	"command": {
+		"publish": {
+			"registry": "https://npm.pkg.github.com",
+			"access": "public"
+		}
+	},
 	"packages": [
 		"packages/*"
 	],
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"npmClient": "yarn",
 	"useWorkspaces": true
 }
