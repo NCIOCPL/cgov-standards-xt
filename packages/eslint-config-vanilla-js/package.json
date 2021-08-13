@@ -13,7 +13,7 @@
 		"registry": "https://npm.pkg.github.com/",
 		"access": "public"
 	},
-	"devDependencies": {
+	"dependencies": {
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-jest": "^24.3.6",
 		"eslint-plugin-jest-dom": "^3.8.1",
