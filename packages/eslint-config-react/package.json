@@ -1,6 +1,6 @@
 {
 	"name": "@nciocpl/eslint-config-react",
-	"version": "0.6.0",
+	"version": "0.6.1",
 	"description": "ESLint shareable config for react-based projects",
 	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {
@@ -12,8 +12,8 @@
 		"registry": "https://npm.pkg.github.com/",
 		"access": "public"
 	},
-	"devDependencies": {
-		"@nciocpl/eslint-config-vanilla-js": "^0.6.0",
+	"dependencies": {
+		"@nciocpl/eslint-config-vanilla-js": "^0.6.1",
 		"eslint-config-airbnb": "^18.2.1",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-config-react-app": "^6.0.0",

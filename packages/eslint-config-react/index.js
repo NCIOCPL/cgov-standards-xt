@@ -6,7 +6,7 @@ module.exports = {
 		jest: true,
 	},
 	extends: [
-		"@nciocpl/eslint-config-vanilla",
+		"@nciocpl/eslint-config-vanilla-js",
 		"plugin:react/recommended",
 		"plugin:jsx-a11y/recommended",
 		"prettier/react",
