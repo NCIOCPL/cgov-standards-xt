@@ -8,9 +8,18 @@ module.exports = {
 	extends: [
 		"@nciocpl/eslint-config-vanilla-js",
 		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
 		"plugin:jsx-a11y/recommended",
-		"prettier/react",
+		"plugin:testing-library/react",
+		// This is duplicated from vanilla-js, but that is because it
+		// overrides other rules and must come last.
+		"plugin:prettier/recommended",
 	],
+	settings: {
+		react: {
+			version: 'detect',
+		},
+	},
 	parser: "babel-eslint",
 	parserOptions: {
 		ecmaVersion: 2016,
@@ -19,14 +28,13 @@ module.exports = {
 			jsx: true,
 		},
 	},
-	plugins: ["jsx-a11y", "prettier", "react", "react-hooks"],
 	rules: {
-		"no-unused-vars": "off",
-		"react/display-name": "off",
-	},
-	globals: {
-		cy: true,
-		Cypress: true,
-		getFixture: true,
+		'react/display-name': 'off',
+		'react-hooks/exhaustive-deps': 'off',
+		'testing-library/no-await-sync-events': 'error',
+		'testing-library/no-manual-cleanup': 'error',
+		'testing-library/no-render-in-setup': 'error',
+		'testing-library/prefer-explicit-assert': 'error',
+		'testing-library/prefer-wait-for': 'error',
 	},
 };

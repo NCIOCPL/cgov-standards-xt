@@ -12,7 +12,6 @@ module.exports = {
 		"plugin:jest-dom/recommended",
 		"plugin:prettier/recommended",
 	],
-	plugins: ["jest", "jest-dom"],
 	rules: {
 		"jest/consistent-test-it": ["error", { fn: "it" }],
 		"jest/no-if": "error",
