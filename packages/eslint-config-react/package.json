@@ -12,7 +12,7 @@
 		"registry": "https://npm.pkg.github.com/",
 		"access": "public"
 	},
-	"devDependencies": {
+	"dependencies": {
 		"@nciocpl/eslint-config-vanilla-js": "^0.6.0",
 		"eslint-config-airbnb": "^18.2.1",
 		"eslint-config-prettier": "^8.3.0",
