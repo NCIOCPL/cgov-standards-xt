@@ -1,6 +1,6 @@
 {
 	"name": "@nciocpl/eslint-config-vanilla-js",
-	"version": "0.6.1",
+	"version": "0.7.0",
 	"description": "ESLint shareable config for vanilla js projects built for the National Cancer Institute(NCI)",
 	"author": "NCIOCPL",
 	"license": "SEE LICENSE IN LICENSE.md",
