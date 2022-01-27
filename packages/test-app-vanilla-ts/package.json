@@ -1,6 +1,6 @@
 {
  "name": "@nciocpl/test-app-vanilla-ts",
- "version": "0.7.0",
+ "version": "0.8.0",
  "description": "test app for vanilla typescript eslint rules",
  "author": "Bryan Pizzillo <bryanpizzillo@users.noreply.github.com>",
  "homepage": "https://github.com/nciocpl/cgov-standards-xt#readme",
@@ -17,7 +17,7 @@
   "test": "jest"
  },
  "devDependencies": {
-  "@nciocpl/eslint-config-vanilla-ts": "^0.7.0",
+  "@nciocpl/eslint-config-vanilla-ts": "^0.8.0",
   "@types/jest": "^27.4.0",
   "eslint": "^7.20.0",
   "jest": "^26.6.3",
