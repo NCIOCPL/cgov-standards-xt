@@ -12,11 +12,15 @@
 			"packages/*"
 		]
 	},
+	"scripts": {
+		"lint": "lerna run lint",
+		"test": "lerna run test"
+	},
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://npm.pkg.github.com/@nciocpl"
 	},
 	"devDependencies": {
-		"lerna": "^4.0.0"
+		"lerna": "^7.1.5"
 	}
 }
