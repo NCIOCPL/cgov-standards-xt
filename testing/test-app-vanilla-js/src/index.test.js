@@ -1,4 +1,4 @@
-const doSomeMath = require("../src/index.js");
+const doSomeMath = require("./index.js");
 
 describe("doSomeMath", () => {
 	it("adds 2 numbers with expected result", () => {
