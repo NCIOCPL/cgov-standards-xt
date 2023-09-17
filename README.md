@@ -6,6 +6,7 @@ This repository contains a rollup of commonly used eslint rules configuration/se
 | --- | ----- |
 | [`eslint-config-react`](./packages/eslint-config-react)     |  Shared eslint-config for react-based projects |
 | [`eslint-config-vanilla-js`](./packages/eslint-config-vanilla-js) |  Shared eslint-config for javascript projects |
+| [`eslint-config-vanilla-ts`](./packages/eslint-config-vanilla-ts) |  Shared eslint-config for typescript projects |
 
 ### Publishing
 When publishing, the test apps should not be published.  The test-app package.jsons have `private: true` to prevent publishing. At some point much of this will be automated, but for now here are the steps.
