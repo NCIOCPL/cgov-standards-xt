@@ -1,14 +1,14 @@
 {
-	"command": {
-		"publish": {
-			"registry": "https://npm.pkg.github.com",
-			"access": "public"
-		}
-	},
-	"packages": [
-		"packages/*",
-		"testing/*"
-	],
-	"version": "0.8.0",
-	"npmClient": "npm"
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com",
+      "access": "public"
+    }
+  },
+  "packages": [
+    "packages/*",
+    "testing/*"
+  ],
+  "version": "1.0.0",
+  "npmClient": "npm"
 }
