@@ -1,6 +1,6 @@
 {
 	"name": "@nciocpl/test-app-vanilla-js",
-	"version": "0.8.0",
+	"version": "1.0.0",
 	"description": "test app for vanilla js eslint-config-vanilla",
 	"main": "index.js",
 	"author": "NCIOCPL",
@@ -16,6 +16,6 @@
 		"lint:fix": "eslint src --ext .js --fix"
 	},
 	"dependencies": {
-		"@nciocpl/eslint-config-vanilla-js": "^0.8.0"
+		"@nciocpl/eslint-config-vanilla-js": "^1.0.0"
 	}
 }
