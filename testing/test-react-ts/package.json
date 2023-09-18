@@ -1,0 +1,36 @@
+{
+  "name": "@nciocpl/test-react-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing instance for React + Typescript linting",
+  "author": "Bryan Pizzillo <bryanpizzillo@users.noreply.github.com>",
+  "homepage": "https://github.com/nciocpl/cgov-standards-xt#readme",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nciocpl/cgov-standards-xt.git"
+  },
+  "scripts": {
+    "start": "esbuild ./src/app.tsx --bundle --servedir=www/ --outdir=www/js",
+    "lint": "tsc -noEmit && eslint src --ext .ts,.tsx",
+    "lint:fix": "tsc -noEmit && eslint src --ext .ts,.tsx --fix"
+  },
+  "bugs": {
+    "url": "https://github.com/nciocpl/cgov-standards-xt/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "esbuild": "^0.19.3",
+    "eslint": "^8.20.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

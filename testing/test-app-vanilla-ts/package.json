@@ -2,14 +2,13 @@
  "name": "@nciocpl/test-app-vanilla-ts",
  "version": "1.0.0",
  "description": "test app for vanilla typescript eslint rules",
- "author": "Bryan Pizzillo <bryanpizzillo@users.noreply.github.com>",
  "homepage": "https://github.com/nciocpl/cgov-standards-xt#readme",
  "license": "ISC",
  "private": true,
  "main": "index.ts",
  "repository": {
   "type": "git",
-  "url": "git+https://bryanpizzillo@github.com/nciocpl/cgov-standards-xt.git"
+  "url": "git+https://github.com/nciocpl/cgov-standards-xt.git"
  },
  "scripts": {
   "lint": "eslint src --ext .ts",
