@@ -7,16 +7,23 @@
 	"author": "NCIOCPL",
 	"license": "ISC",
 	"private": true,
-	"workspaces": {
-		"packages": [
-			"packages/*"
-		]
+	"workspaces": [
+		"packages/*",
+		"testing/*"
+	],
+	"scripts": {
+		"lint": "lerna run lint",
+		"test": "lerna run test"
 	},
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://npm.pkg.github.com/@nciocpl"
 	},
 	"devDependencies": {
-		"lerna": "^4.0.0"
+		"lerna": "^7.1.5"
+	},
+	"engines": {
+		"node": ">=18.0.0 <19.0.0",
+		"npm": ">=9.0.0 <10.0.0"
 	}
 }

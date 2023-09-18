@@ -13,7 +13,7 @@ In order to download the eslint-config-vanilla-ts package, you will have to set 
 
 Requirements:
 * Eslint >= 7.20.0
-* Typescript >= 4.5.0
+* Typescript >= 5.0.0
 
 ```
 $ npm install @nciocpl/eslint-config-vanilla-ts
