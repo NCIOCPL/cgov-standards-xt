@@ -13,7 +13,7 @@ When publishing, the test apps should not be published.  The test-app package.js
 
 #### Publishing Steps for Tests
 1. Version all the packages.
-   * `lerna version --no-git-tag-version X.Y.Z-alpha-DD` where X, Y, Z and DD are numbers. Whatever this is, it must be unique.
+   * `lerna version --no-git-tag-version X.Y.Z-alpha.DD` where X, Y, Z and DD are numbers. Whatever this is, it must be unique.
 2. Publish the packages
    * `lerna publish --force-publish --no-push --yes from-package`
 

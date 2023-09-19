@@ -19,8 +19,7 @@ module.exports = {
 		'react-hooks/exhaustive-deps': 'off',
 		'testing-library/no-await-sync-events': 'error',
 		'testing-library/no-manual-cleanup': 'error',
-		'testing-library/no-render-in-setup': 'error',
-		'testing-library/prefer-explicit-assert': 'error',
-		'testing-library/prefer-wait-for': 'error',
+		'testing-library/no-render-in-lifecycle': 'error',
+		'testing-library/prefer-explicit-assert': 'error'
 	},
 };
