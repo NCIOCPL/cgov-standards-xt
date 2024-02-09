@@ -6,7 +6,7 @@ module.exports = {
 		jest: true,
 	},
 	extends: [
-		"@nciocpl/eslint-config-react/minimal",
+		'./minimal',
 	],
 	parser: "babel-eslint",
 	parserOptions: {

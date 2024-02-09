@@ -6,6 +6,6 @@ module.exports = {
 		jest: true,
 	},
 	extends: [
-		"@nciocpl/eslint-config-vanilla-js/minimal",
-	],
+		"./minimal",
+	]
 };
