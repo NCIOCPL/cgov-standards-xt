@@ -7,15 +7,15 @@
 	"license": "See LICENSE.md",
 	"private": true,
 	"devDependencies": {
-		"eslint": "^7.26.0",
-		"jest": "^26.6.3",
-		"jest-dom": "^4.0.0"
+		"eslint": "~7.32.0",
+		"jest": "~29.7.0",
+		"jest-dom": "~4.0.0"
 	},
 	"scripts": {
 		"lint": "eslint src --ext .js",
 		"lint:fix": "eslint src --ext .js --fix"
 	},
 	"dependencies": {
-		"@nciocpl/eslint-config-vanilla-js": "^1.0.0"
+		"@nciocpl/eslint-config-vanilla-js": "workspace: *"
 	}
 }

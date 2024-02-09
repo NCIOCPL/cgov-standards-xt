@@ -6,7 +6,7 @@ module.exports = {
 		jest: true,
 	},
 	extends: [
-		"@nciocpl/eslint-config-vanilla-ts/minimal",
+		'./minimal',
 	],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
