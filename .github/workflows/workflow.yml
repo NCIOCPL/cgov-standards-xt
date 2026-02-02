@@ -1,6 +1,10 @@
 name: PR Workflow
 on:
   pull_request:
+
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Test
